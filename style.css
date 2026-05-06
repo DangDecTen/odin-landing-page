@@ -1,0 +1,190 @@
+@import url('https://googleapis.com');
+
+* {
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid red; */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.title-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.illust-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.quote-content {
+    font-size: 26px;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.quote-citation {
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.cta-title {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    padding: 10px 150px;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+.main-title {
+    display: flex;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    padding: 75px 150px;
+}
+
+.title-content {
+    flex: 2;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.title-image {
+    flex: 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5a606a;
+}
+
+.illustration {
+    text-align: center;
+    color: #1f2937;
+    background-color: #f9faf8;
+    padding: 75px 0;
+}
+
+.illust-content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 0;
+}
+
+.illust-item {
+    max-width: 180px;
+}
+
+.illust-img-holder {
+    box-sizing: border-box;
+    
+    width: 180px;
+    height: 180px;
+    border: 3px solid #3882f6;
+    border-radius: 10%;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 75px 0;
+}
+
+.quote-container {
+    max-width: 750px;
+}
+
+.quote-content {
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.quote-citation {
+    text-align: right;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #f9faf8;
+    padding: 75px 150px;
+}
+
+.cta-banner {
+    flex: 1;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 50px 150px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    padding: 40px;
+}
+
+.title-button, .cta-button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 6px;
+    font-weight: bold;
+    padding: 5px 30px;
+    font-size: 18px;
+}
+
+.title-button {
+    border: none;
+}
+
+.cta-button {
+    border: 2px solid #e5e7eb;
+}
